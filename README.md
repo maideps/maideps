@@ -10,7 +10,7 @@
 
 ## 🧠 About Me
 
-Full-stack software developer and Computer Science Engineer with **15+ years of experience** building and maintaining web, backend, mobile, ERP/CRM, and desktop systems. Currently developing production software for a multi-repository platform at **Aleph Engineering**, implementing features, resolving issues, upgrading Flutter applications, and managing mobile releases.
+Full-stack software developer and Computer Science Engineer with **15+ years of experience** building and maintaining web, backend, mobile, ERP/CRM, and desktop systems.
 
 I'm passionate about leveraging **AI-assisted engineering workflows** to accelerate delivery while maintaining quality — combining Claude Code, Codex CLI, GitHub Copilot, and MCP-based tooling with human-in-the-loop review.
 
@@ -25,6 +25,8 @@ I'm passionate about leveraging **AI-assisted engineering workflows** to acceler
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![C%23](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 ### Backend & Enterprise
@@ -33,6 +35,7 @@ I'm passionate about leveraging **AI-assisted engineering workflows** to acceler
 ![Symfony](https://img.shields.io/badge/Symfony-000000?style=for-the-badge&logo=symfony&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Odoo](https://img.shields.io/badge/Odoo-714B67?style=for-the-badge&logo=odoo&logoColor=white)
+![Zoho CRM](https://img.shields.io/badge/Zoho_CRM-E42527?style=for-the-badge&logo=zoho&logoColor=white)
 
 ### Frontend & Mobile
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
@@ -54,6 +57,7 @@ I'm passionate about leveraging **AI-assisted engineering workflows** to acceler
 ### Data & Quality
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Firestore](https://img.shields.io/badge/Firestore-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 
