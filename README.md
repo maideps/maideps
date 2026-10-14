@@ -30,6 +30,7 @@ I am most comfortable where requirements are complex, integrations matter and th
 
 ## Currently
 
+- 🧾 Just shipped **[ai-invoice-intake](https://github.com/maideps/ai-invoice-intake)** — a human-in-the-loop invoice automation app (FastAPI, React, PostgreSQL, Redis)
 - 🛠️ Full-Stack Software Developer at **[Aleph Engineering](https://github.com/aleph-engineering-gmbh)** — backend services, integrations and AI-enabled workflows
 - 🤖 Building **[ai-harness-framework](https://github.com/maideps/ai-harness-framework)** — a general-purpose AI agent harness for multi-session engineering workflows
 - 🤝 Open to conversations about backend systems, automation, enterprise software and practical uses of AI in engineering
@@ -38,7 +39,8 @@ I am most comfortable where requirements are complex, integrations matter and th
 
 | Project | What I did | Stack |
 |---|---|---|
-| **[ai-harness-framework](https://github.com/maideps/ai-harness-framework)** | Open-source harness that keeps AI agents consistent and reviewable across long, multi-session engineering tasks. | JavaScript |
+| **[ai-invoice-intake](https://github.com/maideps/ai-invoice-intake)** | Full-stack invoice automation where AI drafts and a person decides: uploads are extracted by an AI service, reviewed against the source PDF with highlighting, then approved and exported through an HMAC-signed webhook. Three roles, an append-only audit trail, and idempotent background jobs. Synthetic data only; starts with one `docker compose up`. | FastAPI, PostgreSQL, Redis, React, TypeScript, Docker |
+| **[ai-harness-framework](https://github.com/maideps/ai-harness-framework)** | Open-source harness that keeps AI agents consistent and reviewable across long, multi-session engineering tasks. I built ai-invoice-intake with it. | JavaScript |
 | **Imagined Earth** | Reverse-vending and recycling-rewards platform: mobile apps, backend services and web interfaces across 15+ repositories. | Flutter, Laravel, TypeScript, React, Vue |
 | **HireLens** | Backend for structured CV analysis, candidate scoring and interview-question generation with the OpenAI Responses API. | FastAPI, Python, OpenAI API |
 | **AI Marketing Automation** | Pipeline that turns structured editorial plans into branded, automatically styled Google Docs. | Python, Google Docs/Drive APIs |
