@@ -2,9 +2,9 @@
 
 # Maidelín Prieto Soto
 
-### Full-Stack Software Engineer · Backend Systems · Automation · AI-enabled workflows
+### Full-Stack Software Engineer · Building with AI coding agents
 
-I build reliable software for real business processes — from APIs and web platforms to mobile apps, ERP/CRM systems and internal automation.
+I build reliable full-stack software for real business processes, and I build it with AI coding agents inside a workflow that keeps every change reviewed, tested and recorded.
 
 **Barcelona, Spain** · **15+ years in software development** · **Spanish / English**
 
@@ -24,30 +24,47 @@ I build reliable software for real business processes — from APIs and web plat
 
 I am a Computer Science Engineer and full-stack developer with 15+ years across web, backend, mobile and enterprise software — from hospital emergency-management systems and ERP/CRM implementations to multi-repository product platforms and AI-assisted internal tools.
 
-I am most comfortable where requirements are complex, integrations matter and the software has to stay understandable long after the first release. I work mainly with **Python, PHP, TypeScript and Flutter**, and I use AI-assisted engineering tools daily, with the same rule I apply to any tool: the result still needs thoughtful design, testing and human review.
+I am most comfortable where requirements are complex, integrations matter and the software has to stay understandable long after the first release. I work mainly with **Python, PHP, TypeScript and Flutter**. I develop with AI coding agents every day, and I built my own harness, **[ai-harness-framework](https://github.com/maideps/ai-harness-framework)**, to make that work dependable: one feature at a time, verification gates that must pass, and written decisions. The agent writes code; I own the design, the review and the result.
 
 > I enjoy turning complicated business processes into software that people can actually use and maintain.
 
 ## Currently
 
-- 🧾 Just shipped **[ai-invoice-intake](https://github.com/maideps/ai-invoice-intake)** — a human-in-the-loop invoice automation app (FastAPI, React, PostgreSQL, Redis)
-- 🛠️ Full-Stack Software Developer at **[Aleph Engineering](https://github.com/aleph-engineering-gmbh)** — backend services, integrations and AI-enabled workflows
-- 🤖 Building **[ai-harness-framework](https://github.com/maideps/ai-harness-framework)** — a general-purpose AI agent harness for multi-session engineering workflows
-- 🤝 Open to conversations about backend systems, automation, enterprise software and practical uses of AI in engineering
+- 🏗️ Building a portfolio of full-stack apps with AI coding agents, each in its own stack: **[ai-invoice-intake](https://github.com/maideps/ai-invoice-intake)** (Python/React) and **[studio-booking-saas](https://github.com/maideps/studio-booking-saas)** (Laravel/Vue)
+- 🔎 Exploring when agents can safely work in an existing codebase with **[ai-codebase-auditor](https://github.com/maideps/ai-codebase-auditor)**
+- 🛠️ Full-Stack Software Developer at **[Aleph Engineering](https://github.com/aleph-engineering-gmbh)**
+- 🤝 Open to full-stack roles where AI-assisted engineering is done with discipline
 
 ## Selected work
 
+Public projects, built with AI coding agents under the harness workflow:
+
+| Project | What it shows | Stack |
+|---|---|---|
+| **[studio-booking-saas](https://github.com/maideps/studio-booking-saas)** | Multi-tenant booking and membership SaaS for small studios. Tenant isolation and race-free bookings are proven by tests rather than claimed. | Laravel, Vue 3, Inertia, PostgreSQL, Pest, Docker |
+| **[ai-invoice-intake](https://github.com/maideps/ai-invoice-intake)** | Human-in-the-loop invoice automation: AI drafts, a person decides. Source-PDF review, three roles, append-only audit trail, HMAC-signed webhook, idempotent background jobs. Synthetic data only; one `docker compose up`. | FastAPI, PostgreSQL, Redis, React, TypeScript, Docker |
+| **[ai-codebase-auditor](https://github.com/maideps/ai-codebase-auditor)** | Audits a codebase, legacy systems first, and decides whether AI coding agents can work in it safely: adopt, adapt or prepare first. | TypeScript |
+| **[ai-harness-framework](https://github.com/maideps/ai-harness-framework)** | The open-source harness behind the projects above: feature list, one task in progress at a time, layered verification gates, sprint contracts and session handoffs. | JavaScript |
+
+Earlier professional work (private, described at a high level):
+
 | Project | What I did | Stack |
 |---|---|---|
-| **[ai-invoice-intake](https://github.com/maideps/ai-invoice-intake)** | Full-stack invoice automation where AI drafts and a person decides: uploads are extracted by an AI service, reviewed against the source PDF with highlighting, then approved and exported through an HMAC-signed webhook. Three roles, an append-only audit trail, and idempotent background jobs. Synthetic data only; starts with one `docker compose up`. | FastAPI, PostgreSQL, Redis, React, TypeScript, Docker |
-| **[ai-harness-framework](https://github.com/maideps/ai-harness-framework)** | Open-source harness that keeps AI agents consistent and reviewable across long, multi-session engineering tasks. I built ai-invoice-intake with it. | JavaScript |
 | **Imagined Earth** | Reverse-vending and recycling-rewards platform: mobile apps, backend services and web interfaces across 15+ repositories. | Flutter, Laravel, TypeScript, React, Vue |
 | **HireLens** | Backend for structured CV analysis, candidate scoring and interview-question generation with the OpenAI Responses API. | FastAPI, Python, OpenAI API |
 | **AI Marketing Automation** | Pipeline that turns structured editorial plans into branded, automatically styled Google Docs. | Python, Google Docs/Drive APIs |
 | **SIUM** | Incident, resource and workflow management for hospital emergency departments. | Symfony, PostgreSQL |
 | **Enterprise ERP/CRM** | Implementations for water management, ITIL service desks, honey production and luxury manufacturing. | Odoo, Zoho CRM, PostgreSQL |
 
-<!-- Tip: add one concrete outcome per row where you can (users, time saved, scale). -->
+## How I work with AI coding agents
+
+1. **Spec first.** Scope, architecture and standards are written down before any code.
+2. **One feature at a time.** Work is split into a feature list, with a contract for each step.
+3. **Gates decide, not the agent.** Lint, type check, tests, build and end-to-end must pass; a skipped check does not count as verified.
+4. **Decisions are recorded.** Each non-obvious choice goes into a decisions log, so the reasoning outlives the session.
+5. **A human reviews.** Agent output is a draft until I have read it and accepted it.
+
+While building ai-invoice-intake with the framework, I found two bugs in the framework itself and fixed them upstream.
 
 ## Toolbox
 
@@ -56,6 +73,7 @@ I am most comfortable where requirements are complex, integrations matter and th
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
 ![Symfony](https://img.shields.io/badge/Symfony-000000?style=flat-square&logo=symfony&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
@@ -64,7 +82,7 @@ I am most comfortable where requirements are complex, integrations matter and th
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
 
-Also: Node.js, Vue.js, MySQL, SQL Server, Redis, GitHub Actions, Firebase, Odoo, Zoho CRM, OpenAI API.
+Also: Node.js, Vue.js, Inertia.js, Pest, MySQL, SQL Server, Redis, GitHub Actions, Firebase, Odoo, Zoho CRM, OpenAI API, Claude Code.
 
 ## Experience
 
@@ -80,7 +98,7 @@ Also: Node.js, Vue.js, MySQL, SQL Server, Redis, GitHub Actions, Firebase, Odoo,
 - **Keep the architecture proportional to the problem.** Not every feature needs a new abstraction or service.
 - **Automate repetition, not judgment.** Tools should remove mechanical work and leave important decisions visible.
 - **Prefer maintainable over clever.** Readable code and clear ownership age better than impressive shortcuts.
-- **Treat AI output as a draft.** Review, testing and accountability still belong to the engineer.
+- **Treat AI output as a draft.** Review, testing and accountability still belong to the engineer, which is why my workflow has verification gates.
 - **Understand the business process.** Good implementation starts before the first line of code.
 
 ## Education and languages
