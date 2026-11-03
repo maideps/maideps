@@ -30,8 +30,9 @@ I am most comfortable where requirements are complex, integrations matter and th
 
 ## Currently
 
-- 🏗️ Building a portfolio of full-stack apps with AI coding agents, each in its own stack: **[ai-invoice-intake](https://github.com/maideps/ai-invoice-intake)** (Python/React) and **[studio-booking-saas](https://github.com/maideps/studio-booking-saas)** (Laravel/Vue)
-- 🔎 Exploring when agents can safely work in an existing codebase with **[ai-codebase-auditor](https://github.com/maideps/ai-codebase-auditor)**
+- 🔬 Measuring AI features against real outcomes: **[ai-issue-triage](https://github.com/maideps/ai-issue-triage)** is evaluated against what maintainers actually did with three years of real issues
+- 🏗️ Building **[studio-booking-saas](https://github.com/maideps/studio-booking-saas)** (Laravel/Vue): notifications, an audit log and a public API are next
+- 🧰 Extracting what my AI apps have in common into **[ai-app-chassis](https://github.com/maideps/ai-app-chassis)**
 - 🛠️ Full-Stack Software Developer at **[Aleph Engineering](https://github.com/aleph-engineering-gmbh)**
 - 🤝 Open to full-stack roles where AI-assisted engineering is done with discipline
 
@@ -41,10 +42,12 @@ Public projects, built with AI coding agents under the harness workflow:
 
 | Project | What it shows | Stack |
 |---|---|---|
-| **[studio-booking-saas](https://github.com/maideps/studio-booking-saas)** | Multi-tenant booking and membership SaaS for small studios. Tenant isolation and race-free bookings are proven by tests rather than claimed. | Laravel, Vue 3, Inertia, PostgreSQL, Pest, Docker |
+| **[ai-issue-triage](https://github.com/maideps/ai-issue-triage)** | Issue triage with a maintainer in the loop: proposes a label, finds likely duplicates and prepares a doc-grounded draft reply for approval. Evaluated against 9,411 real astral-sh/uv issues: hybrid search puts the duplicate maintainers linked in the top 10 for about half of them. The language-model steps still run on stand-ins, and the README says so. | FastAPI, PostgreSQL + pgvector, LangGraph, scikit-learn, React, Docker |
 | **[ai-invoice-intake](https://github.com/maideps/ai-invoice-intake)** | Human-in-the-loop invoice automation: AI drafts, a person decides. Source-PDF review, three roles, append-only audit trail, HMAC-signed webhook, idempotent background jobs. Synthetic data only; one `docker compose up`. | FastAPI, PostgreSQL, Redis, React, TypeScript, Docker |
-| **[ai-codebase-auditor](https://github.com/maideps/ai-codebase-auditor)** | Audits a codebase, legacy systems first, and decides whether AI coding agents can work in it safely: adopt, adapt or prepare first. | TypeScript |
-| **[ai-harness-framework](https://github.com/maideps/ai-harness-framework)** | The open-source harness behind the projects above: feature list, one task in progress at a time, layered verification gates, sprint contracts and session handoffs. | JavaScript |
+| **[studio-booking-saas](https://github.com/maideps/studio-booking-saas)** | Multi-tenant booking and membership SaaS for small studios. Tenant isolation, race-free bookings and exactly-once Stripe webhooks are proven by tests on a real PostgreSQL rather than claimed. In progress: 8 of 14 features. | Laravel, Vue 3, Inertia, PostgreSQL, Pest, Docker |
+| **[ai-codebase-auditor](https://github.com/maideps/ai-codebase-auditor)** | Audits a codebase, legacy systems first, and decides whether AI coding agents can work in it safely: adopt, adapt or prepare first. Calibrated on five real repositories, including Redmine, phpBB and Struts. | TypeScript |
+| **[ai-harness-framework](https://github.com/maideps/ai-harness-framework)** | The open-source harness behind every project here: feature list, one task in progress at a time, layered verification gates, sprint contracts and session handoffs. An adoption matrix tests it on Node, Python, Go and Rust projects. | JavaScript |
+| **[ai-app-chassis](https://github.com/maideps/ai-app-chassis)** | The base I build LLM apps on, extracted from the apps above: a provider port with a fake model, per-step model routing, a cost ledger, versioned prompts, guardrails and an eval gate. Early: 2 of 6 features. | Python, FastAPI, Pydantic, LiteLLM |
 
 Earlier professional work (private, described at a high level):
 
@@ -64,7 +67,7 @@ Earlier professional work (private, described at a high level):
 4. **Decisions are recorded.** Each non-obvious choice goes into a decisions log, so the reasoning outlives the session.
 5. **A human reviews.** Agent output is a draft until I have read it and accepted it.
 
-While building ai-invoice-intake with the framework, I found two bugs in the framework itself and fixed them upstream.
+The projects also test the framework. Building ai-invoice-intake turned up two bugs in it ([D-021](https://github.com/maideps/ai-harness-framework/blob/master/DECISIONS.md#d-021-backup-ids-are-forced-strictly-monotonic-not-left-to-clock-resolution), [D-022](https://github.com/maideps/ai-harness-framework/blob/master/DECISIONS.md#d-022-adoption-matrix-fixtures-use-canonical-layer-scripts-not-the-host-repos-customised-ones)) and [nine improvement issues](https://github.com/maideps/ai-harness-framework/issues?q=is%3Aissue%20created%3A2026-10-14), all fixed upstream.
 
 ## Toolbox
 
@@ -82,7 +85,9 @@ While building ai-invoice-intake with the framework, I found two bugs in the fra
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
 
-Also: Node.js, Vue.js, Inertia.js, Pest, MySQL, SQL Server, Redis, GitHub Actions, Firebase, Odoo, Zoho CRM, OpenAI API, Claude Code.
+AI and data: RAG (pgvector + BM25), LangGraph, LiteLLM, OpenAI API, sentence-transformers, scikit-learn, MCP, evaluation against real data.
+
+Also: Node.js, Inertia.js, Pest, MySQL, SQL Server, Redis, GitHub Actions, Firebase, Odoo, Zoho CRM, Claude Code, Codex, Gemini CLI.
 
 ## Experience
 
