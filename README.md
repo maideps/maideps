@@ -2,9 +2,9 @@
 
 # Maidelín Prieto Soto
 
-### AI / Full-Stack Engineer · LLM products with a human in the loop
+### Agentic Engineer · AI / Full-Stack
 
-I build Python and TypeScript applications where LLM output is validated, checked by a person and measured against real data. I build them with AI coding agents, inside a workflow that keeps every change tested and recorded.
+I build software with AI coding agents, every change tested and recorded. And I build AI agents that keep a human in the loop.
 
 **Barcelona, Spain** · **15+ years in software development** · **Spanish / English**
 
@@ -50,7 +50,7 @@ Public projects, built with AI coding agents under the harness workflow:
   <a href="https://github.com/maideps/ai-invoice-intake"><img src="https://github.com/maideps/ai-invoice-intake/raw/main/docs/images/review.png" width="410" alt="ai-invoice-intake: the source PDF beside the extracted fields and their confidence" /></a>
 </p>
 
-## How I work with AI coding agents
+## Agentic engineering: how I work with AI coding agents
 
 1. **Spec first.** Scope, architecture and standards are written down before any code.
 2. **One feature at a time.** Work is split into a feature list, with a contract for each step.
