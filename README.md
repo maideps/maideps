@@ -2,7 +2,7 @@
 
 # Maidelín Prieto Soto
 
-### Agentic Engineer · AI / Full-Stack
+### Agentic · AI / Full-Stack Engineer
 
 I build software with AI coding agents, every change tested and recorded. And I build AI agents that keep a human in the loop.
 
