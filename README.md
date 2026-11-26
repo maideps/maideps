@@ -30,6 +30,7 @@ I develop with AI coding agents every day, under my own open-source harness, **[
 ## Currently
 
 - 🛠️ Full-Stack Software Developer at **[Aleph Engineering](https://github.com/aleph-engineering-gmbh)**, on a 15+ repository recycling-rewards platform
+- 🚀 Shipped **[ai-agentops](https://github.com/maideps/ai-agentops)**, a security-first agentic platform, with a [live demo](https://maideps.github.io/ai-agentops/)
 - 🏗️ Building **[studio-booking-saas](https://github.com/maideps/studio-booking-saas)** (notifications, audit log and public API are next) and **[ai-app-chassis](https://github.com/maideps/ai-app-chassis)**
 - 🤝 Open to AI / full-stack roles where AI-assisted engineering is done with discipline
 
@@ -39,12 +40,18 @@ Public projects, built with AI coding agents under the harness workflow:
 
 | Project | What it shows | Stack |
 |---|---|---|
+| **[ai-agentops](https://github.com/maideps/ai-agentops)** · [live demo](https://maideps.github.io/ai-agentops/) | The model proposes, the server decides. An agent analyzes sales data, retrieves only the documents the user may read, writes a report where every finding cites its evidence, and proposes a follow-up ticket that is written only after a person approves it, exactly once. Row-level tenant isolation, a policy gateway on every tool call, an MCP server, crash-safe approvals and a model budget that fails closed. Live Gemini Flash-Lite runs reach **37/41** expected outcomes; the 50-case enforcement corpus passes **50/50** (it measures the platform's checks, not model quality). | FastAPI, LangGraph, MCP, LiteLLM, PostgreSQL + pgvector, OpenTelemetry, Next.js |
 | **[ai-issue-triage](https://github.com/maideps/ai-issue-triage)** | Proposes a label, finds likely duplicates and drafts a doc-grounded reply for a maintainer to approve. Evaluated on 9,411 real astral-sh/uv issues: duplicate recall@10 **0.527** vs about 0.40 for vector or keyword search alone; type macro-F1 **0.592** vs 0.143 for always guessing "bug". LLM steps still run on stand-ins, and the README says so. | FastAPI, PostgreSQL + pgvector, LangGraph, scikit-learn, React, Docker |
 | **[ai-invoice-intake](https://github.com/maideps/ai-invoice-intake)** | AI drafts, a person decides: every extracted field is checked against the source PDF. Three roles, append-only audit trail, HMAC-signed webhook, idempotent background jobs. Released as v1.0.0; one `docker compose up`. | FastAPI, PostgreSQL, Redis, React, TypeScript, Docker |
 | **[studio-booking-saas](https://github.com/maideps/studio-booking-saas)** | Multi-tenant booking and membership SaaS. Tenant isolation, race-free bookings and exactly-once Stripe webhooks, proven by tests on a real PostgreSQL. In progress: 8 of 14 features. | Laravel, Vue 3, Inertia, PostgreSQL, Pest, Docker |
 | **[ai-harness-framework](https://github.com/maideps/ai-harness-framework)** | The harness behind every project here: feature list, one task at a time, layered verification gates, sprint contracts, session handoffs. Tested on Node, Python, Go and Rust projects. | JavaScript |
 | **[ai-codebase-auditor](https://github.com/maideps/ai-codebase-auditor)** | Decides whether AI coding agents can safely work in a codebase, legacy systems first: adopt, adapt or prepare first. Calibrated on five real repositories, including Redmine, phpBB and Struts. | TypeScript |
-| **[ai-app-chassis](https://github.com/maideps/ai-app-chassis)** | The base I build LLM apps on, extracted from the apps above: provider port with a fake model, per-step routing, cost ledger, versioned prompts, guardrails, eval gate. Early: 3 of 6 features. | Python, FastAPI, Pydantic, LiteLLM |
+| **[ai-app-chassis](https://github.com/maideps/ai-app-chassis)** | The base I build LLM apps on, extracted from the apps above: provider port with a fake model, per-step routing, cost ledger, versioned prompts, guardrails, eval gate. 6 of 7 features; a real-model eval baseline is next. | Python, FastAPI, Pydantic, LiteLLM |
+| **[orders-nl2sql-api](https://github.com/maideps/orders-nl2sql-api)** | Cleans an orders CSV with deliberate errors, loads it into SQLite and answers natural-language questions: an LLM writes the SQL, a validator checks it, and only then does it run on a read-only connection. | Python, FastAPI, SQLite |
+
+<p align="center">
+  <a href="https://maideps.github.io/ai-agentops/"><img src="https://maideps.github.io/images/ai-agentops-report.png" width="830" alt="ai-agentops live demo: a cited report of the three largest quarterly sales declines, each finding tagged with the sales records and policy passages it cites" /></a>
+</p>
 
 <p align="center">
   <a href="https://github.com/maideps/ai-issue-triage"><img src="https://github.com/maideps/ai-issue-triage/raw/main/docs/images/review.png" width="410" alt="ai-issue-triage: an issue beside a draft reply that quotes the uv docs, waiting for a maintainer's decision" /></a>
@@ -100,9 +107,9 @@ Professional work (private, described at a high level):
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
 
-AI and data: RAG (pgvector + BM25), LangGraph, LiteLLM, OpenAI API, sentence-transformers, scikit-learn, MCP, evaluation against real data.
+AI and data: RAG (pgvector + BM25), LangGraph, LiteLLM, OpenAI API, sentence-transformers, scikit-learn, MCP, OpenTelemetry, evaluation against real data.
 
-Also: Node.js, Inertia.js, Pest, MySQL, SQL Server, Redis, GitHub Actions, Firebase, Odoo, Zoho CRM, Claude Code, Codex, Gemini CLI.
+Also: Node.js, Next.js, Inertia.js, Pest, MySQL, SQL Server, Redis, GitHub Actions, Firebase, Odoo, Zoho CRM, Claude Code, Codex, Gemini CLI.
 
 ## Education and languages
 
