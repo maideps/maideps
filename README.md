@@ -9,6 +9,7 @@ I build software with AI coding agents, every change tested and recorded. And I 
 **Barcelona, Spain** · **15+ years in software development** · **Spanish / English**
 
 <p>
+  <a href="https://maideps.github.io/"><img src="https://img.shields.io/badge/Portfolio-maideps.github.io-2b7a31?style=flat-square&logo=githubpages&logoColor=white" alt="Portfolio: maideps.github.io" /></a>
   <a href="mailto:maidelin.prieto@gmail.com"><img src="https://img.shields.io/badge/Email-maidelin.prieto%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
   <!-- TODO: replace YOUR-HANDLE, then remove these comment markers:
   <a href="https://www.linkedin.com/in/YOUR-HANDLE"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
@@ -113,6 +114,6 @@ Also: Node.js, Inertia.js, Pest, MySQL, SQL Server, Redis, GitHub Actions, Fireb
 
 ### Let’s build something useful.
 
-<a href="mailto:maidelin.prieto@gmail.com"><strong>maidelin.prieto@gmail.com</strong></a>
+<a href="mailto:maidelin.prieto@gmail.com"><strong>maidelin.prieto@gmail.com</strong></a> · <a href="https://maideps.github.io/"><strong>maideps.github.io</strong></a>
 
 </div>
